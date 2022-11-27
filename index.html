@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <!--Css link-->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!--fontawesome script-->
+  <script src="https://kit.fontawesome.com/39bc8958de.js" crossorigin="anonymous"></script>
+  <!--Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500;1,9..144,700&family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <article class="product">
+    <!-- <img src="" alt="shape1" class="squig">
+    <img src="" alt="shape2" class="straight">-->
+
+    <div class="product_info">
+      <picture class="product_image">
+        <source media="(min-width:600px)" srcset="images/image-product-desktop.jpg">
+        <source media="(max-width:599px)" srcset="images/image-product-mobile.jpg">
+        <img src="images/image-product-mobile.jpg" alt="image of perfume">
+      </picture>
+
+      <div class="product_details">
+
+        <p class="product_category">Perfume </p>
+
+        <h2 class="product_title"> Gabrielle Essence Eau De Parfum</h2>
+
+        <p class="lin_hght"> lorem ipsum is the one this card has a lot of text with which people
+          can understand the relevance of the literature describing the product </p>
+
+        <div class="product_prices">
+          <span class="visually-hidden">Current Prices</span>
+          <h4>$149.99</h4>
+          <span class="visually-hidden">Old Prices </span>
+          <p>$169.99</p>
+        </div>
+        <button <!--data-icon="shopping cart" -->
+          <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+        </button>
+      </div>
+    </div>
+  </article>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
