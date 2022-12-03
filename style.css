@@ -17,21 +17,26 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
 * {
   margin: 0;
 }
+
 html, body {
   height: 100%;
   overflow: hidden;
 }
+
 body {
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   -webkit-font-smoothing: antialiased;
 }
+
 img, picture, video, canvas, svg {
   display: block;
   max-width: 100%;
 }
+
 input,button,textarea, select {
   font: inherit;
 }
@@ -62,7 +67,7 @@ body{
 
 
 .product {
- --content-padding:1.5rem;
+ --content-padding:1.0rem;
  --content-spacing:1rem; 
 
   display:grid;
@@ -73,12 +78,25 @@ body{
 
 @media screen and (width >= 600px){
   
- .product_info{
+ .product{
     display:flex;
     flex-direction:row;
     max-width:600px;
   }
+
+  /*.product_image {
+  object-fit:contain;
+ }*/
   
+ article {
+   max-height: 302.95px;
+ }
+
+ /*button {
+   margin-bottom: 15px;
+ }*/ 
+  
+ 
  }
 
 .visually-hidden:not(:focus):not(:active){
@@ -113,7 +131,6 @@ body{
 
 .product_prices{
   display:flex;
-  /*flex-direction:row;*/
   gap:1em;
   align-items:center;
 }
@@ -156,7 +173,7 @@ button i{
 }
 
 
-
+/*My initial Code, before Kevin Powell*/
 /*.container{
   display:flex;
   background-color:grey;
